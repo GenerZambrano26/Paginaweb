@@ -68,7 +68,7 @@
     }
 
 .submenu{
-    position:absolute;
+  /*  position:absolute;*/
     top:60px;
     height:0;
    /*  No se vea*/
@@ -123,10 +123,11 @@
 
     }
     .submenu {
-        position: re;
+     /*   se  muestre*/
+        position: absolute;
         top: 60px;
         width: 200px; /*ANCHO SUBMENU*/
-        overflow: hidden;
+        overflow: visible;
         z-index: 1000;/*Se muestre adelante de todo*/
         opacity: 0;
         visibility: hidden;
